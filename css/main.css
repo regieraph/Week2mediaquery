@@ -332,6 +332,12 @@ header a:hover {
   }
 }
 
+@media (max-width:578px) {
+  .serviceBox > p {
+    display: none;
+  }
+}
+
 @media (max-width:588px) {
   .title > p {
     font-size: 14px;
